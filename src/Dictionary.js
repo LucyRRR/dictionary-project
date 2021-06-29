@@ -26,7 +26,7 @@ export default function Dictionary(props){
         axios.get(apiUrl).then(handleDictionResponse);
 
         let pexelsApiKey="563492ad6f91700001000001fc1908b73ca447c99837fa7c91619383";
-        let pexelsApiUrl=`https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
+        let pexelsApiUrl=`https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
         let headers =  { Authorization: `Bearer ${pexelsApiKey}` };
 
         axios.get(pexelsApiUrl, { headers: headers}).then(handlePexelsResponse);
@@ -62,7 +62,7 @@ if (loaded) {
                 />
             </form>
             <div className="hint">
-                suggested words: cat, wine, cactus, badminton,...
+                suggested words: cat, wine, cactus, badminton, ...
             </div>
             </section>
             <Results results={results} />

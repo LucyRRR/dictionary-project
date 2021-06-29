@@ -5,7 +5,7 @@
 }
 
 .Dictionary section {
-    background: #e5f7f2;
+    background-image: linear-gradient(to right, #b5cdda, #648bb1);
     padding: 30px;
     border-radius: 6px;
     box-shadow: 0 10px 20px rgb (0 0 0 /10%);
@@ -21,6 +21,6 @@
 }
 
 .Dictionary hint {
-    font-size: 10px;
-    margin-top: 5px;
+    font-size: 8px;
+    margin-top: 10px;
 }

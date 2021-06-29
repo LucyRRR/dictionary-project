@@ -9,11 +9,16 @@ export default function App() {
       
       </header>
       <main>
-        <Dictionary defaultKeyword="wine" />
+        <Dictionary defaultKeyword="hangover" />
       </main>
       <footer className="App-footer">
         <small>
-        Coded by Lucia Rothova
+        Coded by <a href="https://www.linkedin.com/in/lucia-rothova-20aa32114/">
+        Lucia Rothova
+        </a> and is open-sourced on
+        <a href="https://github.com/LucyRRR/dictionary-project">
+          {" "}Github
+        </a>
         </small>
       </footer>
       </div>
